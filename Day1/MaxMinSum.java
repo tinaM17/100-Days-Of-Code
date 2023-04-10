@@ -1,8 +1,3 @@
-//{ Driver Code Starts
-//Initial Template for Java
-
-//Initial Template for Java
-
 
 import java.io.*;
 import java.util.*;
@@ -30,20 +25,18 @@ class MaxMinSum {
         
 	}
 }
-// } Driver Code Ends
-
-
-//User function Template for Java
+//solution class for our main functionality
 
 class Solution
 { 
     public static int findSum(int A[],int N) 
     {
-        int max= maxEle(A,N);
-        int min=minEle(A,N);
-        return (max+min);
+        int max= maxEle(A,N); //call the function to find the max
+        int min=minEle(A,N); //call the function to find the min
+        return (max+min); //return the sum of the max and min element
     }
     
+    //function for finding the max element of the array
     public static int maxEle(int A[],int N){
         int max=Integer.MIN_VALUE;
         for(int i=0;i<N;i++){
@@ -54,6 +47,8 @@ class Solution
         return max;
         
     }
+
+    //function for finding the min element of the array
     public static int minEle(int A[],int N){
          int min=Integer.MAX_VALUE;
           for(int i=0;i<N;i++){
