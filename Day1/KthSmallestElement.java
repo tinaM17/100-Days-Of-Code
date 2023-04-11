@@ -20,9 +20,10 @@ class KthSmallestElement {
 		    
 		    int k=sc.nextInt();
 		    Solution ob = new Solution();
-		    out.println(ob.kthSmallest(arr, 0, n-1, k));
+		    out.println(ob.kthSmallest(arr,0, n-1, k));
 		}
 		out.flush();
+        sc.close();
 	}
 }
 
@@ -31,7 +32,7 @@ class KthSmallestElement {
 //solution class for our main functionality
 
 class Solution{
-    public static int kthSmallest(int[] arr, int l, int r, int k) 
+    public int kthSmallest(int[] arr, int l, int r, int k) 
     { 
         PriorityQueue<Integer> pq=new PriorityQueue<>(Collections.reverseOrder());
         //creating a max heap of size k

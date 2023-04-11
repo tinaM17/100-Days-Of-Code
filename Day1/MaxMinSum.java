@@ -1,5 +1,3 @@
-
-import java.io.*;
 import java.util.*;
 
 
@@ -22,6 +20,7 @@ class MaxMinSum {
             
             System.out.println(ob.findSum(a,n));
         }
+        sc.close();
         
 	}
 }
@@ -29,7 +28,7 @@ class MaxMinSum {
 
 class Solution
 { 
-    public static int findSum(int A[],int N) 
+    public int findSum(int A[],int N) 
     {
         int max= maxEle(A,N); //call the function to find the max
         int min=minEle(A,N); //call the function to find the min
