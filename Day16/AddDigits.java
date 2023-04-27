@@ -15,7 +15,7 @@
 // Input: num = 0
 // Output: 0
 
-package Day15;
+package Day16;
 
 class Solution {
     public int addDigits(int num) {
