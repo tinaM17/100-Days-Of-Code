@@ -21,7 +21,6 @@ package Day18;
 
 class Solution {
     public int maxProduct(int[] nums) {
-         
         int n = nums.length;
         int l=1,r=1;
         int ans=nums[0];
