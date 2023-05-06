@@ -19,7 +19,7 @@
 // Input: nums = [], target = 0
 // Output: [-1,-1]
 
-package day26;
+package Day26;
 
 class Solution {
     public int[] searchRange(int[] nums, int target) {

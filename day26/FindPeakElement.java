@@ -20,9 +20,9 @@
 // Explanation: Your function can return either index number 1 where the peak element is 2, or index number 5 where the peak element is 6.
 
 
-package day26;
+package Day26;
 
-class Solution {
+class FindPeakElement {
     public int findPeakElement(int[] nums) {
         if(nums.length == 1) return 0; // single element
         
