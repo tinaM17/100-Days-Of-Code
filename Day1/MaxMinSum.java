@@ -7,7 +7,6 @@ class MaxMinSum {
         Scanner sc = new Scanner(System.in);
         
         int t = sc.nextInt();
-
         while(t-- > 0)
         {
             int n = sc.nextInt();
@@ -25,8 +24,7 @@ class MaxMinSum {
         
 	}
 }
-
-//Solution class for our main functionality
+//solution class for our main functionality
 
 class Solution
 { 
@@ -37,7 +35,7 @@ class Solution
         return (max+min); //return the sum of the max and min element
     }
     
-    //Method for finding the max element of the array
+    //function for finding the max element of the array
     public static int maxEle(int A[],int N){
         int max=Integer.MIN_VALUE;
         for(int i=0;i<N;i++){
@@ -49,7 +47,7 @@ class Solution
         
     }
 
-    //Method for finding the min element of the array
+    //function for finding the min element of the array
     public static int minEle(int A[],int N){
          int min=Integer.MAX_VALUE;
           for(int i=0;i<N;i++){
